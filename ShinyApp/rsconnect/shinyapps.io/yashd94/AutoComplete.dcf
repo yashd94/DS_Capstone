@@ -1,0 +1,12 @@
+name: AutoComplete
+title: AutoComplete
+username:
+account: yashd94
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 391660
+bundleId: 1506807
+url: https://yashd94.shinyapps.io/AutoComplete/
+when: 1532932697.6372
+asMultiple: FALSE
+asStatic: FALSE

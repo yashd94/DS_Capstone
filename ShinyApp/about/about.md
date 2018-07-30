@@ -9,33 +9,18 @@ This application is the capstone project for the Coursera Data Science specializ
 
 #### The Objective
 
-The main goal of this capstone project is to build a shiny application that is able to predict the next word. 
+The goal of this capstone project is to build a Shiny application that predicts the next word on the basis of a set of input words. 
 
-This exercise was divided into seven sub tasks like data cleansing, exploratory analysis, the creation of a predictive model and more.
+This project leverages the various methods learnt during the course of the Coursera Data Science specialization, and is a step-by-step build of a data product. Exploratory analyses, statistical modelling, and learning techniques have been implemented using various R packages. 
 
-All text data that is used to create a frequency dictionary and thus to predict the next words comes from a corpus called [HC Corpora](http://www.corpora.heliohost.org/). 
-
-All text mining and natural language processing was done with the usage of a variety of well-known R packages.
+Data from the corpus provided [HC Corpora](http://www.corpora.heliohost.org/) has been used to create a frequency dictionary of _n-grams_ (a set of _n_ words), and this dictionary has been used to predict the next word. 
 
 ******
 
-#### The Applied Methods & Models
-
-After creating a data sample from the HC Corpora data, this sample was cleaned by conversion to lowercase, removing punctuation, links, white space, numbers and all kinds of special characters.
-This data sample was then [tokenized](http://en.wikipedia.org/wiki/Tokenization_%28lexical_analysis%29) into so-called [*n*-grams](http://en.wikipedia.org/wiki/N-gram). 
-> In the fields of computational linguistics and probability, an *n*-gram is a contiguous sequence of n items from a given sequence of text or speech. ([Source](http://en.wikipedia.org/wiki/N-gram))
+#### Using the Application
 
 
-Those aggregated bi-,tri- and quadgram term frequency matrices have been transferred into frequency dictionaries.
-
-The resulting data.frames are used to predict the next word in connection with the text input by a user of the described application and the frequencies of the underlying *n*-grams table.
-
-******
-
-#### The Usage Of The Application
-
-
-The user interface of this application was designed with **Mobile First** in mind. While entering the text (**1**), the field with the predicted next word (**2**) refreshes instantaneously and  also the whole text input (**3**) gets displayed.
+Once the user enters text into the first box, as shown below, the app predicts the next word, which is then displayed in the second box below.
 
 ![Application Screenshot](app-screenshot.png)
 
@@ -44,12 +29,12 @@ The user interface of this application was designed with **Mobile First** in min
 #### Additional Information
 
 
-* The next word prediction app is hosted on shinyapps.io: [https://nierhoff.shinyapps.io/cdsc](https://nierhoff.shinyapps.io/cdsc)
+* The next word prediction app is hosted on shinyapps.io: [https://yashd94.shinyapps.io/AutoComplete/](https://yashd94.shinyapps.io/AutoComplete/)
 
-* In the case of any inaccessibility the same app is also hosted on my private shiny server: [http://apps.nierhoff.info/cdsc](http://apps.nierhoff.info/cdsc)
+* The code used to develop this application along with other required data can be found in the GitHub repository linked here: [https://github.com/yashd94/DS_Capstone](https://github.com/yashd94/DS_Capstone)
 
-* The whole code of this application, as well as all the milestone report, related scripts, this presentation  etc. can be found in this GitHub repo: [https://github.com/mhnierhoff/CapstoneCoursera](https://github.com/mhnierhoff/CapstoneCoursera)
+* The milestone report for this project can be found at: [http://rpubs.com/yashd94/399725](http://rpubs.com/yashd94/399725)
 
-* This pitch deck is located here: [http://rpubs.com/nierhoff/cdsc](http://rpubs.com/nierhoff/cdsc)
+* The deck used to pitch this application can be found at: [http://rpubs.com/yashd94/CapstonePitch](http://rpubs.com/yashd94/CapstonePitch)
 
-* Learn more about the Coursera Data Science Specialization: [https://www.coursera.org/specialization/jhudatascience/1](https://www.coursera.org/specialization/jhudatascience/1)
+* You can also read more about the Coursera Data Science Specialization at: [https://www.coursera.org/specialization/jhudatascience/1](https://www.coursera.org/specialization/jhudatascience/1)

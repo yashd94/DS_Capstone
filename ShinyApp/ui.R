@@ -4,7 +4,7 @@
 ##                                                                            ##            
 ##                              Yash Deshpande                                ##
 ##                                                                            ##
-##           Github Repo:                                                     ##
+##           Github Repo: https://github.com/yashd94/DS_Capstone              ##
 ##                                                                            ##
 ################# ~~~~~~~~~~~~~~~~~ ######## ~~~~~~~~~~~~~~~~~ #################
 
@@ -18,12 +18,12 @@ suppressPackageStartupMessages(c(
 
 shinyUI(navbarPage("Coursera Data Science Capstone", 
                    
-                   theme = shinytheme("flatly"),
+                   theme = shinytheme("united"),
                    
 ############################### ~~~~~~~~1~~~~~~~~ ##############################  
 ## Tab 1 - Prediction
 
-tabPanel("Next Word Prediction",
+tabPanel("SwiftKey- Prediction Application",
          
          tags$head(includeScript("./js/ga-shinyapps-io.js")),
          
@@ -32,17 +32,17 @@ tabPanel("Next Word Prediction",
                  column(3),
                  column(6,
                         tags$div(textInput("text", 
-                                  label = h3("Enter your text here:"),
+                                  label = h3("Enter your text here*:"),
                                   value = ),
-                        tags$span(style="color:grey",("Only English words are supported.")),
+                        tags$span(style="color:grey",("*English only.")),
                         br(),
                         tags$hr(),
-                        h4("The predicted next word:"),
+                        h4("Next word suggested:"),
                         tags$span(style="color:darkred",
                                   tags$strong(tags$h3(textOutput("predictedWord")))),
                         br(),
                         tags$hr(),
-                        h4("What you have entered:"),
+                        h4("Your input:"),
                         tags$em(tags$h4(textOutput("enteredWords"))),
                         align="center")
                         ),
@@ -53,7 +53,7 @@ tabPanel("Next Word Prediction",
 ############################### ~~~~~~~~2~~~~~~~~ ##############################
 ## Tab 2 - About 
 
-tabPanel("About This Application",
+tabPanel("About",
          fluidRow(
                  column(2,
                         p("")),
@@ -73,11 +73,11 @@ tags$hr(),
 tags$br(),
 
 tags$span(style="color:grey", 
-          tags$footer(("© 2015 - "), 
+          tags$footer(("© 30th July 2018 - "), 
                       tags$a(
-                              href="http://nierhoff.info",
+                              href="https://www.linkedin.com/in/yash-deshpande-73b97081/",
                               target="_blank",
-                              "Maximilian H. Nierhoff."), 
+                              "Yash Deshpande."), 
                       tags$br(),
                       ("Built with"), tags$a(
                               href="http://www.r-project.org/",

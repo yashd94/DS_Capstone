@@ -4,7 +4,7 @@
 ##                                                                            ##            
 ##                 Yash Deshpande                                             ##
 ##                                                                            ##
-##           Github Repo:                                                     ##
+##           Github Repo: https://github.com/yashd94/DS_Capstone              ##
 ##                                                                            ##
 ################# ~~~~~~~~~~~~~~~~~ ######## ~~~~~~~~~~~~~~~~~ #################
 
