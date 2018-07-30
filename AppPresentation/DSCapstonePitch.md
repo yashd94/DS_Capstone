@@ -9,7 +9,7 @@ This presentation acts as a pitch for an [application](https://yashd94.shinyapps
 This application has been created as a culmination to the Data Science Specialization, under Coursera and Johns Hopkins University, in partnership with SwiftKey. </small>
 ![SwiftKey, Bloomberg & Coursera Logo](logos.png)
 
-The Objective
+Objective, Methodology, and Algorithm
 ========================================================
 
 The goal of this capstone project was to build a Shiny application that predicts the next word on the basis of a set of input words. 
@@ -39,5 +39,15 @@ Additional Information
 
 * You can also read more about the Coursera Data Science Specialization at: [https://www.coursera.org/specialization/jhudatascience/1](https://www.coursera.org/specialization/jhudatascience/1) 
 
+</small>
+
+Thank you!
+========================================================
+
+
+
+About the author:
+
+[Yash Deshpande] (https://www.linkedin.com/in/yash-deshpande-73b97081/)
 
 
