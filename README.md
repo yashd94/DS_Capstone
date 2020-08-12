@@ -1,7 +1,6 @@
 # Coursera Data Science Capstone Project
 
-This application is the capstone project for the Coursera Data Science specialization held by professors of the Johns Hopkins University and in cooperation with SwiftKey.
-
+This application is the capstone project for the Coursera Data Science specialization held by professors of the Johns Hopkins University and in cooperation with SwiftKey. The application is hosted at: https://yashd94.shinyapps.io/AutoComplete/.
 
 ## The Objective
 
@@ -10,6 +9,14 @@ The goal of this capstone project is to build a Shiny application that predicts 
 This project leverages the various methods learnt during the course of the Coursera Data Science specialization, and is a step-by-step build of a data product. Exploratory analyses, statistical modelling, and learning techniques have been implemented using various R packages.
 
 Data from the corpus provided [HC Corpora](http://data.danetsoft.com/corpora.heliohost.org) has been used to create a frequency dictionary of n-grams (sets of _n_ words), and this dictionary has been used to predict each successive word. 
+
+## Navigating this repo
+
+`/ShinyApp/` contains:
+
+* `inputCleaner.R`: processes the input text and defines helper functions.
+* `ui.R`: defines the element of the application UI.
+* `server.R`: defines the functionality of the application, using functions defined in `inputCleaner.R`.
 
 ## Additional Information
 
